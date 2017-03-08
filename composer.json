@@ -1,0 +1,16 @@
+{
+  "require": {
+    "lcobucci/jwt": "^3.2"
+  },
+  "config": {
+    "vendor-dir": "lib/vendor"
+  },
+  "autoload": {
+    "classmap": [
+      "lib/classes"
+    ],
+    "files": [
+      "lib/function/sanitize.php"
+    ]
+  }
+}
